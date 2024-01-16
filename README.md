@@ -2,8 +2,8 @@
 | URI | REST Route | HTTP Method | CRUD Action | EJS View |
 |-----|------------|-------------|-------------|----------|
 | / | | GET | read | home.ejs |
-| /destinations | index | GET | read | dest-index.ejs |
-| /destinations/:id | show | GET | read | dest-details.ejs |
+| /destinations | index | GET | read | destination-index.ejs |
+| /destinations/:id | show | GET | read | destination-details.ejs |
 | /destinations/new | new | GET | | new-form.ejs |
 | /destinations | create | POST | create | |
 | /destinations/:id/edit | edit | GET | read | edit-form.ejs |
