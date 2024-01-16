@@ -5,12 +5,9 @@ const mongoose = require('mongoose');
 const destSchema = new mongoose.Schema({
     name: { type: String, required: true },
     photo: { type: String, required: true },
-    rating: { type: String, required: true },
     description: { type: String, required: true },
     averageCost: { type: String, required: true },
-    thingsToDo: [],
-    coworkingSpaces: [],
-    transportation: [], 
+    visa: { type: String, required: true }, 
 });
 
 // Export the schema as a Monogoose model. 
