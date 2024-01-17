@@ -11,6 +11,7 @@
 | /destinations/:id | delete | DELETE | delete | |
 | /reviews/ | index | GET | read | review-index.ejs |
 | /reviews/:id | show | GET | read | review-details.ejs | 
-| /reviews/new/:id | new | GET | read | new-form.ejs |
-| /reviews/create/:id | create | POST | create | |
+| /reviews/new/:destinationId | new | GET | read | new-form.ejs |
+| /reviews/create/:destinationId | create | POST | create | |
+| /reviews/:id | destroy | DELETE | delete | |
 | /seed | | GET | delete & create | |

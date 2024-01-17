@@ -37,6 +37,10 @@
                 </td>
             </tr>
         </table>
+        <form method="POST" action="/reviews/<%= review._id %>?_method=DELETE">
+            <input class="btn" type="submit" value="Delete" />
+        </form>
+    </section>
     </section>
 
     <%- include('../partials/footer.ejs') %>
