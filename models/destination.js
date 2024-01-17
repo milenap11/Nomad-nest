@@ -1,5 +1,6 @@
 // Require the Mongoose package
 const mongoose = require('mongoose');
+const reviewSchema = require('./review.js')
 
 // Create a schema to define the properties of the pets collection
 const destinationSchema = new mongoose.Schema({
@@ -9,6 +10,10 @@ const destinationSchema = new mongoose.Schema({
     averageCost: { type: String, required: true },
     visa: { type: String, required: true }, 
     isFeatured: { type: Boolean, default: false },
+    // the reviews array can only accept objects that match the criteria specified
+    // in the reviewSchema. In other words, the reviews array can only accept reviews
+    reviews: [reviewSchema]
+
 });
 
 // Export the schema as a Monogoose model. 

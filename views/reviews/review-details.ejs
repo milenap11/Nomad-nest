@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/head.ejs', {title: 'My Reviews | Nomad Nest'}) %>
+    <link rel="stylesheet" href="/styles/review-details.css">
+</head>
+
+<body>
+    <%- include('../partials/nav.ejs') %>
+
+    <section class="review">
+        <h1>Reviewer Name: <%= review.reviewer %></h1>
+        <table>
+            <tr>
+                <th>
+                    <h2>Headline:</h2>
+                </th>
+                <td>
+                    <h2><%= review.title %></h2>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <h2>Comments:</h2>
+                </th>
+                <td>
+                    <h2><%= review.content %></h2>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <h2>Date submitted:</h2>
+                </th>
+                <td>
+                    <h2><%= review.reviewDate.toLocaleDateString() %></h2>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <%- include('../partials/footer.ejs') %>
+</body>
+
+</html>

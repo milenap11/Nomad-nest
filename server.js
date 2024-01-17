@@ -12,7 +12,7 @@ const methodOverride = require('method-override');
 /* Require the routes in the controllers folder
 --------------------------------------------------------------- */
 const destinationsCtrl = require('./controllers/destinations')
-
+const reviewsCtrl = require('./controllers/reviews')
 
 /* Require the db connection, models, and seed data
 --------------------------------------------------------------- */
@@ -91,7 +91,7 @@ app.get('/seed', function (req, res) {
 // This tells our app to look at the `controllers/destinations.js` file 
 // to handle all routes that begin with `localhost:3000/destinations`
 app.use('/destinations', destinationsCtrl)
-
+app.use('/reviews', reviewsCtrl)
 
 // The "catch-all" route: Runs for any other URL that doesn't match the above routes
 app.get('*', function (req, res) {
