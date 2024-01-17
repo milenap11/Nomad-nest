@@ -25,6 +25,17 @@
             </section>
         </section>
     </div>
+        <section class="listings">
+            <ul>
+                <% for (let review of destination.reviews) { %>
+                <li>
+                    <h4><%= review.reviewer %></h4>
+                    <p>Created: <%= review.reviewDate %></p>
+                    <a href="/reviews/<%= review._id %>">Read More</a>
+                </li>
+                <% } %>
+            </ul>
+        </section>
 
     <%- include('./partials/footer.ejs') %>
 </body>
