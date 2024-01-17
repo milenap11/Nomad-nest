@@ -58,7 +58,7 @@ app.use(methodOverride('_method'));
 --------------------------------------------------------------- */
 // Home Page
 app.get('/', function (req, res) {
-    db.Destination.find({ })
+    db.Destination.find({isFeatured: true })
         .then(destinations => {
             res.render('home', {
                 destinations: destinations

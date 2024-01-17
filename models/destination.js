@@ -8,6 +8,7 @@ const destinationSchema = new mongoose.Schema({
     description: { type: String, required: true },
     averageCost: { type: String, required: true },
     visa: { type: String, required: true }, 
+    isFeatured: { type: Boolean, default: false },
 });
 
 // Export the schema as a Monogoose model. 
