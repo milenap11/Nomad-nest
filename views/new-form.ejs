@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('./partials/head.ejs', {title: 'Add a Destination | Nomad Nest'}) %>
+    <link rel="stylesheet" href="/styles/destination-form.css">
+</head>
+
+<body>
+    <%- include('./partials/nav.ejs') %>
+
+    <section class="hero">
+        <h2>Create a Destination</h2>
+        <h4><i>Helping you find your home away from home</i></h4>
+    </section>
+
+    <form method="POST" action="/destinations">
+        <!-- Name input -->
+        <label for="name">City, Country:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <!-- Photo input -->
+        <label for="photo">Photo (URL):</label>
+        <input type="text" id="photo" name="photo" required>
+        <br>
+         <!-- Description input -->
+         <label for="description">Description:</label>
+         <textarea id="description" name="description" required></textarea>
+        <br>
+        <!-- Cost input -->
+        <label for="averageCost">Average Monthly Cost:</label>
+        <input type="text" id="averageCost" name="averageCost">
+        <br>
+        <!-- Visa input -->
+        <label for="visa">Visa Requirement:</label>
+        <input type="text" id="visa" name="visa">
+        <br>
+        <input type="submit" value="Create Destination">
+    </form>
+
+    <%- include('./partials/footer.ejs') %>
+</body>
+
+</html>
