@@ -14,8 +14,10 @@
             <ul>
                 <% for (let review of reviews) { %>
                 <li>
-                    <h4><%= review.reviewer %></h4>
-                    <p>Created: <%= review.reviewDate %></p>
+                    <h4><%= review.title %></h4>
+                    <p><b>Name:</b> <%= review.reviewer %></p>
+                    <p><b>Created:</b> <%= review.reviewDate %></p>
+
                     <a href="/reviews/<%= review._id %>">Read More</a>
                 </li>
                 <% } %>

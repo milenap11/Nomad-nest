@@ -42,11 +42,16 @@ strong {
 
 /* Style Action Buttons */
 .actions {
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 40px;
 }
+
+/* .btn {
+    margin: 10px;
+} */
 
 .btn a {
     color: #fff;

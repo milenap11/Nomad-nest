@@ -16,6 +16,7 @@
             <p><b>Average Monthly Cost:</b> <%= destination.averageCost %></p>
             <p><b>Visa Requirement:</b> <%= destination.visa %></p>
             <p><strong>Description:</strong> <%= destination.description %></p>
+        </section>
             <section class="actions">
                 <button class="btn"><a href="/destinations/<%= destination._id %>/edit">Edit</a></button>
                 <form method="POST" action="/destinations/<%= destination._id %>?_method=DELETE">
@@ -23,7 +24,6 @@
                 </form>
                 <button class="btn"><a href="/reviews/new/<%= destination._id %>">Review</a></button>
             </section>
-        </section>
     </div>
         <section class="listings">
             <ul>

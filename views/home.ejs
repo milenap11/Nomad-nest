@@ -17,7 +17,7 @@
         </section>
 
         <section class="featured-destinations">
-            <h2>Best Voted Destinations by Digital Nomads</h2>
+            <h2>Best Voted by Digital Nomads</h2>
             <ul class="destination-grid">
                 <% for (let destination of destinations) { %>
                 <li>
@@ -30,7 +30,7 @@
                             <p><b>Average Monthly Cost:</b> <%= destination.averageCost %></p>
                             <p><b>Visa Requirement:</b> <%= destination.visa %></p>
                         </div>
-                        <a href="/destinations/<%= destination._id %>" class="btn">View</a>
+                        <a href="/destinations/<%= destination._id %>" class="btn">Explore</a>
                     </figcaption>
                 </li>
                 <% } %>

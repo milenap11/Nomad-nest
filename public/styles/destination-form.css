@@ -1,5 +1,5 @@
 .hero {
-    height: 20vh;
+    height: 30vh;
     min-height: 175px;
     margin-bottom: 2rem;
 }
@@ -17,9 +17,8 @@ label {
 }
 
 input[type="text"],
-input[type="number"],
-input[type="email"],
-input[type="tel"],
+input[type="title"],
+
 textarea,
 select {
     width: 100%;

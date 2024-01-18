@@ -9,11 +9,6 @@
 <body>
     <%- include('./partials/nav.ejs') %>
 
-    <!-- <section class="hero">
-        <h2>Available Pets</h2>
-        <h3>Will you be the forever home and provide love to one of these special animals?</h3>
-    </section> -->
-
     <main>
         <section class="listings">
             <ul>
@@ -25,7 +20,7 @@
                             <h4><%= destination.name %></h4>
                             <p><b>Average Monthly Cost:</b> <%= destination.averageCost %></p>
                             <p><b>Visa Requirement:</b> <%= destination.visa %></p>
-                            <a href="/destinations/<%= destination._id %>">View</a>
+                            <a href="/destinations/<%= destination._id %>">Explore</a>
                         </figcaption>
                     </figure>
                 </li>
