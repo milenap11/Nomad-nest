@@ -75,12 +75,20 @@ nav a {
     align-items: center;
     background-color: #e8f1f2;
     height: 40vh;
+    background: url(../assets/leafsun.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    
 }
 
 .hero h2 {
     font-size: 3rem;
     margin-bottom: 1rem;
     text-align: center;
+    color: white;
 }
 
 .hero h3 {

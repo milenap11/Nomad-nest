@@ -1,4 +1,4 @@
-# nomad-nest
+# Nomad Nest
 | URI | REST Route | HTTP Method | CRUD Action | EJS View |
 |-----|------------|-------------|-------------|----------|
 | / | | GET | read | home.ejs |

@@ -13,8 +13,8 @@
         <img src="<%= destination.photo %>">
         <h2 class="destination-name"><%= destination.name %></h2>
         <section>
-            <p>Average Monthly Cost: <%= destination.averageCost %></p>
-            <p>Visa Requirement: <%= destination.visa %></p>
+            <p><b>Average Monthly Cost:</b> <%= destination.averageCost %></p>
+            <p><b>Visa Requirement:</b> <%= destination.visa %></p>
             <p><strong>Description:</strong> <%= destination.description %></p>
             <section class="actions">
                 <button class="btn"><a href="/destinations/<%= destination._id %>/edit">Edit</a></button>

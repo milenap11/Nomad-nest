@@ -11,20 +11,13 @@
 
     <main>
         <section class="hero">
+           
             <h2>Find Your New Home Away from Home</h2>
-            <!-- <a href="/pets" class="btn">Adopt Now!</a> -->
+            <a href="/destinations" class="btn">Let's Go!</a>
         </section>
-<!-- 
-        <section class="about">
-            <h2>About Us</h2>
-            <p>Furever Friends is a non-profit organization dedicated to finding loving homes for animals in need. We
-                work with shelters and rescue groups across the country to help connect pets with their new families.
-            </p>
-            <a href="/about" class="btn">Learn More</a>
-        </section> -->
 
         <section class="featured-destinations">
-            <h2>Best Voted Destinations</h2>
+            <h2>Best Voted Destinations by Digital Nomads</h2>
             <ul class="destination-grid">
                 <% for (let destination of destinations) { %>
                 <li>
@@ -34,10 +27,10 @@
                     <figcaption>
                         <div class="featured-info">
                             <h3><%= destination.name %></h3>
-                            <p>Average Monthly Cost: <%= destination.averageCost %></p>
-                            <p>Visa Requirement: <%= destination.visa %></p>
+                            <p><b>Average Monthly Cost:</b> <%= destination.averageCost %></p>
+                            <p><b>Visa Requirement:</b> <%= destination.visa %></p>
                         </div>
-                        <a href="/destinations/<%= destination._id %>" class="btn">Learn More</a>
+                        <a href="/destinations/<%= destination._id %>" class="btn">View</a>
                     </figcaption>
                 </li>
                 <% } %>
