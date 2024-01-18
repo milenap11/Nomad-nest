@@ -23,18 +23,19 @@
         <label for="photo">Photo (URL):</label>
         <input type="text" id="photo" name="photo" value="<%= destination.photo %>" required>
         <br>
+         <!-- Cost input -->
+         <label for="averageCost">Average Monthly Cost:</label>
+         <input type="text" id="averageCost" name="averageCost" value="<%= destination.averageCost %>" required>
+         <br>
+         <!-- Visa input -->
+         <label for="visa">Visa Requirement:</label>
+         <input type="text" id="visa" name="visa" value="<%= destination.visa %>" required>
+         <br>
          <!-- Description input -->
          <label for="description">Description:</label>
          <textarea id="description" name="description" required><%= destination.description %></textarea>
          <br>
-        <!-- Cost input -->
-        <label for="averageCost">Average Monthly Cost:</label>
-        <input type="averageCost" id="averageCost" name="averageCost" value="<%= destination.averageCost %>" required>
-        <br>
-        <!-- Visa input -->
-        <label for="visa">Visa Requirement:</label>
-        <input type="visa" id="visa" name="visa" value="<%= destination.visa %>" required>
-        <br>
+       
         <input type="submit" value="Edit Destination">
     </form>
 

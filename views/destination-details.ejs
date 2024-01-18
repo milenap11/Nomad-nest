@@ -24,18 +24,21 @@
                 </form>
                 <button class="btn"><a href="/reviews/new/<%= destination._id %>">Review</a></button>
             </section>
-    </div>
+        </div>
+        
         <section class="listings">
-            <ul>
+            
                 <% for (let review of destination.reviews) { %>
-                <li>
-                    <h4><%= review.reviewer %></h4>
+                
+                    <h4><%= review.reviewer %> - <%= review.title %></h4>
                     <p>Created: <%= review.reviewDate %></p>
-                    <a href="/reviews/<%= review._id %>">Read More</a>
-                </li>
+                    <button class="btn"><a href="/reviews/<%= review._id %>">Read More</a></button>
+                
                 <% } %>
-            </ul>
+                
         </section>
+        
+    </div>
 
     <%- include('./partials/footer.ejs') %>
 </body>
