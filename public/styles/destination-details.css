@@ -9,7 +9,7 @@ div {
 }
 
 img {
-    width: 60%;
+    width: 80%;
     min-width: 300px;
     height: 30%;
     min-height: 150px;
@@ -24,7 +24,7 @@ img {
 
 section {
     text-align: left;
-    margin: 0 20%;
+    margin: 0 10%;
 }
 
 p {
@@ -42,11 +42,12 @@ strong {
 
 /* Style Action Buttons */
 .actions {
-    /* margin-top: 1rem; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .btn a {
@@ -57,5 +58,9 @@ strong {
     text-align: center;
     margin: 40px;
     
+}
+
+.info {
+    margin-top: 5rem;
 }
 

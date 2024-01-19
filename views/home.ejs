@@ -27,8 +27,8 @@
                     <figcaption>
                         <div class="featured-info">
                             <h3><%= destination.name %></h3>
-                            <p><b>Average Monthly Cost:</b> <%= destination.averageCost %></p>
-                            <p><b>Visa Requirement:</b> <%= destination.visa %></p>
+                            <p>Average Monthly Cost: <span style="color:black"><%= destination.averageCost %></span></p>
+                            <p>Visa Requirement: <span style="color:black"><%= destination.visa %></span></p>
                         </div>
                         <a href="/destinations/<%= destination._id %>" class="btn">Explore</a>
                     </figcaption>

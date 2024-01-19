@@ -44,7 +44,7 @@ const destinations = [
     photo: 'https://nomadcapitalist.com/wp-content/uploads/Digital-Nomads-Chiang-Mai-Thailand-1.png',
     description: 'Situated in Northern Thailand, Chiang Mai is an ancient city with hundreds of temples and a beautiful mountainous landscape. Over the years, Chiang Mai has transformed from a quiet religious town to one bustling with digital nomads from all over the world looking to enjoy the city sights while working remotely. Chiang Mai has all the digital nomad essentials – cool cafes, hostels, speedy internet, delicious street food, and coworking spaces.',
     averageCost: '$1,500',
-    visa: 'Thai-Long-Term-Visa (Thailand Golden Visa)',  
+    visa: 'Thailand Golden Visa',  
     isFeatured: true,  
     }
 ]
