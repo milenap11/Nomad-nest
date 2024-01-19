@@ -95,19 +95,20 @@ app.get('/about', function (req, res) {
 
 
 // When a GET request is sent to `/seed`, the destinations collection is seeded
-// app.get('/seed', function (req, res) {
-//     // Remove any existing destinations
-//     db.Destination.deleteMany({})
-//         .then(removedDestinations => {
-//             console.log(`Removed ${removedDestinations.deletedCount} destinations`)
-//             // Seed the destinations collection with the seed data
-//             db.Destination.insertMany(db.seedDestinations)
-//                 .then(addedDestinations => {
-//                     console.log(`Added ${addedDestinations.length} destinations`)
-//                     res.json(addedDestinations)
-//                 })
-//         })
-// });
+if (process.env.ON_HEROKU === 'false') {
+app.get('/seed', function (req, res) {
+    // Remove any existing destinations
+    db.Destination.deleteMany({})
+        .then(removedDestinations => {
+            console.log(`Removed ${removedDestinations.deletedCount} destinations`)
+            // Seed the destinations collection with the seed data
+            db.Destination.insertMany(db.seedDestinations)
+                .then(addedDestinations => {
+                    console.log(`Added ${addedDestinations.length} destinations`)
+                    res.json(addedDestinations)
+                })
+        })
+})};
 
 
 // This tells our app to look at the `controllers/destinations.js` file 
