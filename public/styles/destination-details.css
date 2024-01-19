@@ -6,6 +6,7 @@ div {
     padding: 20px;
     margin: 4vh auto;
     box-shadow: 2px 2px 5px #ccc;
+    border-radius: 4px;
 }
 
 img {
@@ -51,7 +52,7 @@ strong {
 }
 
 .btn a {
-    color: #fff;
+    color: #fdfffc;
     text-decoration: none;
 }
 

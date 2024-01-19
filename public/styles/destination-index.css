@@ -3,11 +3,13 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    min-height: 100vh;
     
 }
 
 .listings {
     margin-top: 50px;
+    
     
 }
 
@@ -23,11 +25,12 @@ main {
 
 .listings li {
     margin-bottom: 40px;
-    border: 2px solid #ccc;
+    border: 1px solid #ccc;
     padding: 20px;
     border-radius: 4px;
     position: relative;
     text-align: center;
+    box-shadow: 2px 2px 5px #ccc;
 }
 
 .listings li img {
@@ -51,8 +54,8 @@ figcaption {
 }
 
 .listings li a {
-    background-color: #333;
-    color: #fff;
+    background-color: #2E3B40;
+    color: #fdfffc;
     font-size: 18px;
     padding: 10px 20px;
     border: none;
@@ -64,5 +67,5 @@ figcaption {
 }
 
 .listings li a:hover {
-    background-color: #555;
+    background-color: #5A7E8C;
 }

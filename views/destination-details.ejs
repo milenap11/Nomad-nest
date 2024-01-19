@@ -26,17 +26,24 @@
             </section>
         </div>
         
+       
         <section class="listings">
             
+            
                 <% for (let review of destination.reviews) { %>
+
+                    <div>
                 
                     <h4><%= review.reviewer %> - <%= review.title %></h4>
-                    <p>Created: <%= review.reviewDate %></p>
+                    <p>Created: <%= review.reviewDate.toLocaleDateString() %></p>
                     <button class="btn"><a href="/reviews/<%= review._id %>">Read More</a></button>
+
+                    </div>  
                 
                 <% } %>
-                
+              
         </section>
+        
         
     </div>
 

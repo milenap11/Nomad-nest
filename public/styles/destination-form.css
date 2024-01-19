@@ -4,6 +4,10 @@
     margin-bottom: 2rem;
 }
 
+.hero a {
+    color: #fdfffc;
+}
+
 form {
     width: 60%;
     min-width: 300px;
@@ -34,8 +38,8 @@ textarea {
 }
 
 input[type="submit"] {
-    background-color: #333;
-    color: #fff;
+    background-color: #2E3B40;
+    color: #fdfffc;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -44,7 +48,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #555;
-    color: #fff;
+    background-color: #5A7E8C;
+    color: #fdfffc;
     text-decoration: none;
 }
