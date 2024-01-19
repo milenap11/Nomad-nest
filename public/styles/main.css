@@ -24,7 +24,7 @@ body {
     line-height: 1.5;
     color: #333;
     background-color: #f7f7f7;
-    min-height: 100vh;
+    min-height: 110vh;
 }
 
 a {
@@ -120,6 +120,8 @@ nav a {
 
 .btn:hover {
     background-color: #555;
+    text-decoration: none;
+    color: white;
 }
 
 /* Footer styles */
@@ -127,6 +129,9 @@ footer {
     text-align: center;
     padding: 1rem;
     background-color: #333;
+    height: 10vh;
+    /* position: sticky;
+    bottom: 0; */
   
     /* width: calc(100vw - 1rem); */
 }

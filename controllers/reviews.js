@@ -48,7 +48,7 @@ router.post('/create/:destinationId', (req, res) => {
         { $push: { reviews: req.body } },
         { new: true }
     )
-    .then(() => res.redirect('/reviews'))
+    .then(() => res.redirect('/destinations/' + req.params.destinationId))
 });
 
 // Show Route: GET localhost:3000/reviews/:id
