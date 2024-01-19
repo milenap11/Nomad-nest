@@ -24,13 +24,13 @@
 <details open>
 <summary>Wireframe-Home</summary>
 
-![Home](home.png)
+![Home](public/assets/screenshots/home.png)
 </details>
 
 <details open>
 <summary>Wireframe-Details</summary>
 
-![Details](details.png)
+![Details](public/assets/screenshots/details.png)
 </details>
 
 <details open>
@@ -64,14 +64,14 @@
 </details>
 
 <details open>
-<summary>Review</summary>
+<summary>Second Schema - Reviews</summary>
 
 ![Create a Review](contact.png)
 </details>
 
 ## :robot: Technologies Used
 
-![HTML5](https://img.shields.io/badge/-HTML5-05122A?style=flat&logo=html5)  ![CSS3](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3) ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)
+https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=whiten https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white  https://img.shields.io/badge/Express.js-404D59?style=for-the-badge https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white ![CSS3](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3) ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)
 
 ## :link: Links
 
