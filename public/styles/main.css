@@ -78,7 +78,7 @@ nav a {
     align-items: center;
     background-color: #e8f1f2;
     height: 40vh;
-    background: url(../assets/leafsun.gif);
+    background: url(../assets/leafbanner.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,11 +130,9 @@ footer {
     /* width: calc(100vw - 1rem); */
 }
 
-
 footer * {
     color: #fdfffc;
     justify-content: center;
-    
 }
 
 footer h6 {

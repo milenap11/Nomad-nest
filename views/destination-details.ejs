@@ -20,7 +20,7 @@
             <section class="actions">
                 <button class="btn"><a href="/destinations/<%= destination._id %>/edit">Edit</a></button>
                 <form method="POST" action="/destinations/<%= destination._id %>?_method=DELETE">
-                    <input class="btn" type="submit" value="Delete" />
+                    <input class="btn delete" type="submit" value="Delete" />
                 </form>
                 <button class="btn"><a href="/reviews/new/<%= destination._id %>">Review</a></button>
             </section>
@@ -28,23 +28,14 @@
         
        
         <section class="listings">
-            
-            
                 <% for (let review of destination.reviews) { %>
-
                     <div>
-                
                     <h4><%= review.reviewer %> - <%= review.title %></h4>
                     <p>Created: <%= review.reviewDate.toLocaleDateString() %></p>
                     <button class="btn"><a href="/reviews/<%= review._id %>">Read More</a></button>
-
                     </div>  
-                
                 <% } %>
-              
         </section>
-        
-        
     </div>
 
     <%- include('./partials/footer.ejs') %>

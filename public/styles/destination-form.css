@@ -8,6 +8,24 @@
     color: #fdfffc;
 }
 
+.edit {
+    background: url(../assets/mountains.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.dest-new {
+    background: url(../assets/beach.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.review-new {
+    background: url(../assets/road.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
 form {
     width: 60%;
     min-width: 300px;
