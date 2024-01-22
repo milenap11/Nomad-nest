@@ -36,37 +36,41 @@
 <details open>
 <summary>Home</summary>
 
-![Home](home.png)
+![Home](public/assets/screenshots/home-web.png)
 </details>
 
 <details open>
 <summary>Index</summary>
 
-![Destination-index](projects-1.png)
+![Destination-index](public/assets/screenshots/index.png)
 </details>
 
 <details open>
 <summary>Show</summary>
 
-![Destination-show](game.png)
+![Destination-show](public/assets/screenshots/show.png)
 </details>
 
 <details open>
 <summary>New & Create</summary>
 
-![New Destination](about-screenshot.png)
+![New Destination](public/assets/screenshots/new.png)
 </details>
 
 <details open>
 <summary>Edit & Update</summary>
 
-![Edit Destination](contact.png)
+![Edit Destination](public/assets/screenshots/edit.png)
 </details>
 
 <details open>
 <summary>Second Schema - Reviews</summary>
 
-![Create a Review](contact.png)
+![Create a Review](public/assets/screenshots/new-review.png)
+
+![Create a Review](public/assets/screenshots/index-review.png)
+
+![Create a Review](public/assets/screenshots/show-review.png)
 </details>
 
 ## :robot: Technologies Used
@@ -91,12 +95,11 @@ Welcome to Nomad Nest: a site created to assist digital nomads. Pick a location 
 - As a mid-level engineer, I want to view a junior developer's project and read their code, so that I can evaluate their coding skills. -->
 
 
-## :triangular_flag_on_post: Unsolved Problems & Hurdles
+<!-- ## :triangular_flag_on_post: Unsolved Problems & Hurdles
 
-- Improve the UI on smaller screens
-
+-  -->
 
 ## :dart: Next Steps
 
-- [ ] Improve the UI
-- [ ] Add features and complete the app
+- [ ] Add logo
+- [ ] Improve the look of reviews in the destination details' page
