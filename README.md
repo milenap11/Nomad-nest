@@ -11,7 +11,7 @@
 | /destinations | create | POST | create | |
 | /destinations/:id/edit | edit | GET | read | edit-form.ejs |
 | /destinations/:id | update | PUT | update | |
-| /destinations/:id | delete | DELETE | delete | |
+| /destinations/:id | destroy | DELETE | delete | |
 | /reviews/ | index | GET | read | review-index.ejs |
 | /reviews/:id | show | GET | read | review-details.ejs | 
 | /reviews/new/:destinationId | new | GET | read | new-form.ejs |
@@ -88,11 +88,11 @@
 
 Welcome to Nomad Nest: a site created to assist digital nomads. Pick a location and we'll help you getting settled in your new home away from home. We'll provide and book recommended stays, assist with visa requirements, offer information about transportation, co-working spaces and more. Explore our list of destinations and find reviews posted by digital nomads. Are you ready to buckle up?
 
-<!-- ## :pencil: User Stories
+## :pencil: User Stories
 
 - As someone just met at a networking event, I want to quickly see the developer's skills, so that I can recommend the person to my company or someone who I know. 
 - As a non-technical HR manager, I want to quickly see the skills and experience of a candidate, so that I can evaluate whether the candidate meets the requirements for an open position at my company.
-- As a mid-level engineer, I want to view a junior developer's project and read their code, so that I can evaluate their coding skills. -->
+- As a mid-level engineer, I want to view a junior developer's project and read their code, so that I can evaluate their coding skills.
 
 
 <!-- ## :triangular_flag_on_post: Unsolved Problems & Hurdles
@@ -102,4 +102,5 @@ Welcome to Nomad Nest: a site created to assist digital nomads. Pick a location 
 ## :dart: Next Steps
 
 - [ ] Add logo
-- [ ] Improve the look of reviews in the destination details' page
+- [ ] Improve the look of reviews
+- [ ] Add more features
