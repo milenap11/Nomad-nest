@@ -90,10 +90,9 @@ Welcome to Nomad Nest: a site created to assist digital nomads. Pick a location 
 
 ## :pencil: User Stories
 
-- As someone just met at a networking event, I want to quickly see the developer's skills, so that I can recommend the person to my company or someone who I know. 
-- As a non-technical HR manager, I want to quickly see the skills and experience of a candidate, so that I can evaluate whether the candidate meets the requirements for an open position at my company.
-- As a mid-level engineer, I want to view a junior developer's project and read their code, so that I can evaluate their coding skills.
-
+- As a remote worker who likes to travel, I want to easily find recommended destinations by digital nomads like myself, along with relevant information. 
+- As a remote worker who likes to travel, I want to read opinions by digital nomads who have traveled to the destinations before myself.
+- As a remote worker who likes to travel, I want to share my thoughts on my experience in one of the recommended destiantions. 
 
 <!-- ## :triangular_flag_on_post: Unsolved Problems & Hurdles
 
