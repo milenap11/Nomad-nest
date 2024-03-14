@@ -92,7 +92,7 @@ Welcome to Nomad Nest: a site created to assist digital nomads. Pick a location 
 
 - As a remote worker who likes to travel, I want to easily find recommended destinations by digital nomads like myself, along with relevant information. 
 - As a remote worker who likes to travel, I want to read opinions by digital nomads who have traveled to the destinations before myself.
-- As a remote worker who likes to travel, I want to share my thoughts on my experience in one of the recommended destiantions. 
+- As a remote worker who likes to travel, I want to share my thoughts on my experience in one of the recommended destinations. 
 
 <!-- ## :triangular_flag_on_post: Unsolved Problems & Hurdles
 
